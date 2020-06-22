@@ -1,5 +1,7 @@
 # Dissertation - Toolbox of automatic visual inspection solutions
 
+The files cannot be stored in the repository, because of the signed confidentiality agreement. To serve this unique and exclusive repository to demonstrate the project that was developed during my dissertation.
+
 **PROJECT:** 
 
 The objective of this work is to develop a toolbox of configurable solutions, through a graphical interface appropriate to the problem, so that they can be applied to similar problems. This dissertation focuses on the detection of four specific problems, namely, the detection of fiducial markers, the detection of pins, the detection of the geometric center and verification of the positioning of pointers and the detection of the absence or defective positioning of screws.
