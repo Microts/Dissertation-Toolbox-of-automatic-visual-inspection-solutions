@@ -37,7 +37,7 @@ configure the solutions.
 
 * Detection of the geometric center and checking the positioning of pointers:
 
-![5](https://user-images.githubusercontent.com/66881028/85335358-cb97a180-b4d4-11ea-9ebb-2ec985b473df.png)
+![5](https://user-images.githubusercontent.com/66881028/85335507-0994c580-b4d5-11ea-8336-e66b9cae2828.png)
 
 * Detection of the absence or defective positioning of screws:
 
