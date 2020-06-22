@@ -6,7 +6,7 @@ The files cannot be stored in the repository, because of the signed confidential
 
 The objective of this work is to develop a toolbox of configurable solutions, through a graphical interface appropriate to the problem, so that they can be applied to similar problems. This dissertation focuses on the detection of four specific problems, namely, the detection of fiducial markers, the detection of pins, the detection of the geometric center and verification of the positioning of pointers and the detection of the absence or defective positioning of screws.
 
-The methods proposed for each of the problems were based on the operators provided by the Halcon software (from MVTec) and validated on different objects. Then the interactive graphical interfaces were developed using the Qt framework and written in C ++ 14. All the developed methods proved to be efficient, being able to correctly detect the objects the solutions can be applied to different objects with similar properties.
+The methods proposed for each of the problems were based on the operators provided by the Halcon software (from MVTec) and validated on different objects. Then the interactive graphical interfaces were developed using the Qt framework and written in C++14. All the developed methods proved to be efficient, being able to correctly detect the objects the solutions can be applied to different objects with similar properties.
 
 The developed application focuses on the definition of micro-operations and the execution engine. It is the combination of the interactive mode of the application, with the parameterizable toolbox, that enables the user
 configure the solutions.
