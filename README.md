@@ -2,27 +2,43 @@
 
 **PROJECT:** 
 
-In this project, an application was developed that performs manual segmentation in RGB images. It also allows you to edit the segmentation in progress and, finally, saves the segmentation as a binary image. The application was implemented in C++, using Qt as a graphical UI.
+The objective of this work is to develop a toolbox of configurable solutions, through a graphical interface appropriate to the problem, so that they can be applied to similar problems. This dissertation focuses on the detection of four specific problems, namely, the detection of fiducial markers, the detection of pins, the detection of the geometric center and verification of the positioning of pointers and the detection of the absence or defective positioning of screws.
 
-**FEATURES:** 
+The methods proposed for each of the problems were based on the operators provided by the Halcon software and validated on different objects. The developed methods proved to be efficient, being able to correctly detect the objects.
 
-* Manual segmentation in an RGB image;
-* Edit the current segmentation, from deleting the last selected point (and line), until deleting all the segmentation performed;
-* Define a new segmentation, different from the segmentation previously created;
-* View the three image channels (RGB);
-* Save the segmentation performed and view the final result.
+The developed application focuses on the definition of micro-operations and the execution engine. It is the combination of the interactive mode of the application, with the parameterizable toolbox, that enables the user
+configure the solutions.
 
-**FILES:** 
-* [aplicacao.pro](https://github.com/MiguelCastro3/Application-for-manual-segmentation/blob/master/aplicacao.pro) - application project file.
-* [aplicacao.h](https://github.com/MiguelCastro3/Application-for-manual-segmentation/blob/master/aplicacao.h) and [aplicacao.cpp](https://github.com/MiguelCastro3/Application-for-manual-segmentation/blob/master/aplicacao.cpp) - class aplicacao with the code for the back-end of the developed application and connection with the graphics_scene class. 
-* [aplicacao.ui](https://github.com/MiguelCastro3/Application-for-manual-segmentation/blob/master/aplicacao.ui) - interface implemented for the front-end of the final application.
-* [graphics_scene.h](https://github.com/MiguelCastro3/Application-for-manual-segmentation/blob/master/graphics_scene.h) and [graphics_scene.cpp](https://github.com/MiguelCastro3/Application-for-manual-segmentation/blob/master/graphics_scene.cpp) - which defines the scene where the items will be viewed and allows the manipulation of it.
+**OBJECTIVES:**
+* Detection and recognition of different fiducial markers to, for example, help locate other electronic components inserted in plates;
+* Detection of pins correctly positioned on plugs;
+* Detection of the geometric center of objects for the placement of pointers and respective verification of their correct positioning;
+* Detection of the absence or defective positioning of screws;
+* The solutions developed will also be configurable, so that they can be applied to other problems with different properties.
 
 
 **RESULTS:** 
 
-![1](https://user-images.githubusercontent.com/66881028/84962699-5f492680-b0ff-11ea-94bb-f41b7b05945b.png)
+[Video of an example](https://youtu.be/w_oUst0VUbQ) - video with the execution of the two interfaces implemented and an example of a solution configuration for a given problem, in this case, for the detection of circular fiducials. Summary: first an image is selected that will serve as a reference for future new test images, and then an appropriate solution to the problem is loaded. By selecting the Settings option, the user will have control over the solution configuration, in the so-called micro-operations. At each step it is possible to adjust its parameters and, before proceeding to the next micro-operation, check its effect unlimited times. When the configuration of the solution is finished, it is transferred to the execution engine (main interface). The "new" solution will be applied to different test images where it will be possible to view the detections made, as well as additional information about the detections made, for example, number of detections and computation times.
 
-![2](https://user-images.githubusercontent.com/66881028/84962703-6112ea00-b0ff-11ea-9829-bdbe8efc4b3a.png)
+* Detection of different circular fiducial markers:
 
-![3](https://user-images.githubusercontent.com/66881028/84962704-61ab8080-b0ff-11ea-9614-5cc0600b774a.png)
+![1](https://user-images.githubusercontent.com/66881028/85334054-8a9e8d80-b4d2-11ea-8a23-e0784874905c.png)
+
+* Detection of different cross fiducial markers:
+
+![2](https://user-images.githubusercontent.com/66881028/85334058-8bcfba80-b4d2-11ea-97eb-62ed1d6f2dba.png)
+
+* Detection of correctly positioned pins:
+
+![3](https://user-images.githubusercontent.com/66881028/85334059-8bcfba80-b4d2-11ea-9507-32d0f48df8c7.png)
+
+![4](https://user-images.githubusercontent.com/66881028/85334060-8c685100-b4d2-11ea-9a10-915042900dcb.png)
+
+* Detection of the geometric center and checking the positioning of pointers:
+
+![5](https://user-images.githubusercontent.com/66881028/85335507-0994c580-b4d5-11ea-8336-e66b9cae2828.png)
+
+* Detection of the absence or defective positioning of screws:
+
+![6](https://user-images.githubusercontent.com/66881028/85334062-8d00e780-b4d2-11ea-9eec-75248f76a8b1.png)
