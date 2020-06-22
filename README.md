@@ -19,4 +19,26 @@ configure the solutions.
 
 **RESULTS:** 
 
-[Video of an example](https://youtu.be/w_oUst0VUbQ) - video with the execution of the two interfaces implemented and an example of a solution configuration for a given problem, in this case, for the detection of circular fiducials.
+[Video of an example](https://youtu.be/w_oUst0VUbQ) - video with the execution of the two interfaces implemented and an example of a solution configuration for a given problem, in this case, for the detection of circular fiducials. Summary: first an image is selected that will serve as a reference for future new test images, and then an appropriate solution to the problem is loaded. By selecting the Settings option, the user will have control over the solution configuration, in the so-called micro-operations. At each step it is possible to adjust its parameters and, before proceeding to the next micro-operation, check its effect unlimited times. When the configuration of the solution is finished, it is transferred to the execution engine (main interface). The "new" solution will be applied to different test images where it will be possible to view the detections made, as well as additional information about the detections made, for example, number of detections and computation times.
+
+* Detection of different circular fiducial markers:
+
+![1](https://user-images.githubusercontent.com/66881028/85334054-8a9e8d80-b4d2-11ea-8a23-e0784874905c.png)
+
+* Detection of different cross fiducial markers:
+
+![2](https://user-images.githubusercontent.com/66881028/85334058-8bcfba80-b4d2-11ea-97eb-62ed1d6f2dba.png)
+
+* Detection of correctly positioned pins:
+
+![3](https://user-images.githubusercontent.com/66881028/85334059-8bcfba80-b4d2-11ea-9507-32d0f48df8c7.png)
+
+![4](https://user-images.githubusercontent.com/66881028/85334060-8c685100-b4d2-11ea-9a10-915042900dcb.png)
+
+* Detection of the geometric center and checking the positioning of pointers:
+
+![5](https://user-images.githubusercontent.com/66881028/85334061-8c685100-b4d2-11ea-9c48-da1075d08be5.png)
+
+* Detection of the absence or defective positioning of screws:
+
+![6](https://user-images.githubusercontent.com/66881028/85334062-8d00e780-b4d2-11ea-9eec-75248f76a8b1.png)
